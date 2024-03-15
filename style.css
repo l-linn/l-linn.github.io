@@ -16,11 +16,16 @@ p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+img {
+  width: 65%;
+}
+
 body {
   margin: 0;
   font-size: 1.25rem;
   background: var(--body-bg);
-  padding-inline-start: 20rem;
+  padding-inline-start: 16rem;
+  padding-inline-end: 5rem;
   color: #00628B;
 }
 
@@ -33,6 +38,23 @@ nav {
   padding-block: 2rem;
 }
 
+
+button {
+  background-color:#81A594;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+button a {
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.7s;
+}
+
 .nav-list {
   margin: 0;
   padding: 0;
@@ -40,10 +62,12 @@ nav {
   display: grid;
   gap: 1rem;
 }
+
 a {
   text-decoration: none;
   color: #00628B;
 }
+
 
 .nav-list a {
   color: white;
