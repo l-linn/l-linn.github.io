@@ -22,6 +22,7 @@ img {
 
 body {
   margin: 0;
+  padding-bottom: 2rem;
   font-size: 1.25rem;
   background: var(--body-bg);
   padding-inline-start: 16rem;
@@ -67,8 +68,15 @@ a {
   text-decoration: none;
   color: #00628B;
 }
-
-
+.back {
+  background-color: #00628B;
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+  margin: 1rem;
+  border-radius: 50%;
+  padding: 10px;
+}
 .nav-list a {
   color: white;
   display: block;
