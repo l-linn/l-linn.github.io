@@ -1,31 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="view-transition" content="same-origin" />
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="/main.js" defer></script>
-        <title>Contact</title>
-        <link href="/style.css" rel="stylesheet" />
-    </head>
-
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Lili</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant&display=swap">
+    <link rel="stylesheet" href="./sass/styles.css">
+</head>
+<body>
+    <header>
         <nav>
-            <ul class="nav-list">
-                <li>
-                    <a href="index.html"><span>Home</span></a>
+            <a href="./index.html"><img class="header__logo" src="./img/lili-logo.svg" alt="personal logo of lili"></a>
+            <ul class="nav-list" role="menubar">
+                <li role="presentation">
+                    <a href="./index.html" role="menuitem">Home</a>
                 </li>
-                <li>
-                    <a href="projects.html"><span>Projects</span></a>
+                <li role="presentation">
+                    <a href="./projects.html" role="menuitem">Projects</a>
                 </li>
-                <li class="active">
-                    <a href="contact.html" aria-current="page"
-                        ><span>Contact</span></a
-                    >
+                <li role="presentation">
+                    <a href="./contact.html" role="menuitem">Contact</a>
                 </li>
             </ul>
         </nav>
-        <main></main>
-    </body>
+    </header>
+    <main>
+        <div class="contact">
+            <h1>&lt Send a Message &gt</h1>
+            <div class="bell">
+                <a href="tel:+447864713875" class="phone-number__link">or ring me</a>
+                <svg class="bell-anime" width="60" height="60" viewBox="-100 -100 200 200">
+                    <g stroke="#1b3d2f" stroke-width="1">
+                      <circle cx="0" cy="-45" r="7" fill="#cbc6a3" />
+                      <circle cx="0" cy="50" r="10" fill="#eb9197 " />
+                      <path
+                        d="
+                          M -50 40
+                          L -50 50
+                          L 50 50
+                          L 50 40
+                          Q 40 40 40 10
+                          C 40 -60 -40 -60 -40 10   
+                          Q -40 40 -50 40"
+                        fill="#66b3d6"
+                      />
+                   </g>
+                  </svg>
+            </div>
+            <form action="#" method="post" id="contact-form">
+                <label class="standard-label" for="name">Your Name:</label><br>
+                <input type="text" id="name" required><br>
+                <label class="standard-label" for="email">Your Email:</label><br>
+                <input type="email" id="email" required><br>
+                <label class="standard-label" for="message">Your Message: </label><br>
+                <textarea maxlength="240" id="message" rows="5" cols="30"></textarea><br>
+                <button>Send</button>
+            </form>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <img class="footer-logo" src="./img/lili-logo2.svg" alt="personal logo of Lili">
+        <div class="find-me-on">
+            <a href="mailto:shilinxi@proton.me">Email: shilinxi@proton.me |</a>
+            <a href="https://www.linkedin.com/in/shilinxi/" target="_blank"> LinkedIn |</a>
+            <a href="https://github.com/shilinxi-lili" target="_blank"> Github</a>
+        </div>
+        &copy;2023 ShiLinxi | lili. All Rights Reserved
+    </footer>
+</body>
 </html>

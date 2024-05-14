@@ -1,43 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="view-transition" content="same-origin" />
-
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="/main.js" defer></script>
-        <title>Projects</title>
-        <link href="/style.css" rel="stylesheet" />
-    </head>
-
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant&display=swap">
+    <link rel="stylesheet" href="./sass/styles.css">
+</head>
+<body>
+    <header>
         <nav>
-            <ul class="nav-list">
-                <li>
-                    <a href="index.html"><span>Home</span></a>
+            <a href="./index.html"><img class="header__logo" src="./img/lili-logo.svg" alt="personal logo of lili"></a>
+            <ul class="nav-list" role="menubar">
+                <li role="presentation">
+                    <a href="./index.html" role="menuitem">Home</a>
                 </li>
-                <li class="active">
-                    <a href="projects.html" aria-current="page"
-                        ><span>Projects</span></a
-                    >
+                <li role="presentation">
+                    <a href="./projects.html" role="menuitem">Projects</a>
                 </li>
-                <li>
-                    <a href="contact.html"><span>Contact</span></a>
+                <li role="presentation">
+                    <a href="./contact.html" role="menuitem">Contact</a>
                 </li>
             </ul>
         </nav>
-        <main>
-            <ol>
-                <a href="meet-app.html">
-                    <li>Pokedex Project</li>
-                    <li>My Flix backend - Movie API</li>
-                    <li>My Flix frontend</li>
-                    <li>My Flix frontend - Angular</li>
-                    <li>Meet App</li>
-                    <li>Chat App - mobile</li>
-                </a>
-            </ol>
-        </main>
-    </body>
+    </header>
+    <main>
+        <section>
+            <h1>&lt Projects &gt</h1>
+            <div class="work-grid">
+                <div class="work-grid__item">
+                    <img src="https://placehold.co/200x200" alt="photo of project 1">
+                    <h2>name of project 1</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    </p>
+                    <a class="work-link" href="#">check out the code</a>
+                </div>
+                <div class="work-grid__item">
+                    <img src="https://placehold.co/400x200" alt="photo of project 2">
+                    <h2>name of project 2</h2>
+                    <p>
+                        r sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    </p>
+                    <a class="work-link" href="#">check out the code</a>
+                </div>
+                <div class="work-grid__item">
+                    <img src="https://placehold.co/200x200" alt="photo of project 3">
+                    <h2>name of project 3</h2>
+                    <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    </p>
+                    <a class="work-link" href="#">check out the code</a>
+                </div>
+                <div class="work-grid__item">
+                    <img src="https://placehold.co/200x200" alt="photo of project 4">
+                    <h2>name of project 4</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consec 
+                    </p>
+                    <a class="work-link" href="#">check out the code</a>
+                </div>
+                <div class="work-grid__item">
+                    <img src="https://placehold.co/200x200" alt="photo of project 5">
+                    <h2>name of project 5</h2>
+                    <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation u
+                    </p>
+                    <a class="work-link" href="#">check out the code</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <img class="footer-logo" src="./img/lili-logo2.svg" alt="personal logo of Lili">
+        <div class="find-me-on">
+            <a href="mailto:shilinxi@proton.me">Email: shilinxi@proton.me |</a>
+            <a href="https://www.linkedin.com/in/shilinxi/" target="_blank"> LinkedIn |</a>
+            <a href="https://github.com/shilinxi-lili" target="_blank"> Github</a>
+        </div>
+        &copy;2023 ShiLinxi | lili. All Rights Reserved
+    </footer>
+</body>
 </html>
