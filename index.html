@@ -1,92 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lili</title>
-    <link rel="shortcut icon" href="./img/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant&family=Ysabeau+SC&display=swap">
-    <link rel="stylesheet" href="./sass/styles.css">
-</head>
-<body>
-    <!--simple popup message, could style it properly. How to stop it from repeatly showing everytime I click home button-->
-    <!--<script type="text/javascript">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lili</title>
+        <link rel="shortcut icon" href="./img/favicon.ico" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Assistant&family=Ysabeau+SC&display=swap"
+        />
+        <link rel="stylesheet" href="./sass/styles.css" />
+    </head>
+    <body>
+        <!--simple popup message, could style it properly. How to stop it from repeatly showing everytime I click home button-->
+        <!--<script type="text/javascript">
         window.onload = function(){
         alert("Hello! You have entered a construction site. My name is Lili and I am learning how to code. This is my personal website and the very first project of mine, and it is still in the building. Therefore sorry for the mess and if you are interested in the progress, come back again from time to time and you will see new features popping up. x");
             }
     </script> -->
-    <header>
-        <nav>
-            <a href="./index.html"><img class="header__logo" src="./img/lili-logo.svg" alt="personal logo of lili"></a>
-            <ul class="nav-list" role="menubar">
-                <li role="presentation">
-                    <a href="./index.html" role="menuitem">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="./projects.html" role="menuitem">Projects</a>
-                </li>
-                <li role="presentation">
-                    <a href="./contact.html" role="menuitem">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="profile">
-            <a href="./index.html"><img class="profile__portrait" src="./img/home-photo.jpg" alt="a photo of lili"></a>
-            <div class="typy-animation">
-                <h1>&lt Creative Developer &gt</h1>
+        <header>
+            <nav>
+                <a href="./index.html"
+                    ><img
+                        class="header__logo"
+                        src="./img/lili-logo.svg"
+                        alt="personal logo of lili"
+                /></a>
+                <ul class="nav-list" role="menubar">
+                    <li role="presentation">
+                        <a href="./index.html" role="menuitem">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./projects.html" role="menuitem">Projects</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./contact.html" role="menuitem">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="profile">
+                <a href="./index.html"
+                    ><img
+                        class="profile__portrait"
+                        src="./img/home-photo.jpg"
+                        alt="a photo of lili"
+                /></a>
+                <div class="typy-animation">
+                    <h1>&lt Creative Developer &gt</h1>
+                </div>
+                <p>
+                    Hi, my name is Shi Linxi, or <span>Lin</span>.<br />I'm a
+                    frontend developer and UI designer based in Manchester UK.
+                </p>
+                <p class="about-me">
+                    This site documents the projects I worked on during my self
+                    learning journey with Career Foundry Full-Stack Web
+                    Development course, from September 2023 to August 2024.
+                </p>
+                <a class="code-button" href="./projects.html">see my code</a>
             </div>
-            <p>Hi, my name is Shi Linxi, or <span>Lin</span>.<br>I'm a full-stack developer based in Manchester UK.</p>
-            <p class="about-me">velit giat nulla pariatur. lum dolo pariatur. Excepteur sint occaecat cupidatat non proum dolo pariaident, sunt in curoiden.</p>
-            <a class="code-button" href="./projects.html">see my code</a>
-        </div>
-        <div>
-            <q class="quote">Live as if you were to die tomorrow; learn as if you were to live forever.</q>
-        </div>
-        <section class="skills-grid">
-            <div class="skills-grid__item">
-                <h3>Design</h3>
-                <p>Wordpress</p>
-                <p>Figma</p>
-                <p>Adobe Illustrator</p>
-                <p>Adobe InDesign</p>
-                <p>Adobe Photoshop</p>
+            <div>
+                <q class="quote"
+                    >Live as if you were to die tomorrow; learn as if you were
+                    to live forever.</q
+                >
             </div>
-            <div class="skills-grid__item">
-                <h3>Development</h3>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>Python</p>
+            <section class="skills-grid">
+                <div class="skills-grid__item">
+                    <h3>Design</h3>
+                    <p>Wordpress</p>
+                    <p>Figma</p>
+                    <p>Adobe Illustrator</p>
+                    <p>Adobe InDesign</p>
+                    <p>Adobe Photoshop</p>
+                </div>
+                <div class="skills-grid__item">
+                    <h3>Development</h3>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>Python</p>
+                </div>
+                <div class="skills-grid__item">
+                    <h3>Creative</h3>
+                    <p>Film Editing</p>
+                    <p>Scenic Painting</p>
+                    <p>Technical Drawing</p>
+                    <p>Model Making</p>
+                    <p>Carpentry</p>
+                </div>
+            </section>
+            <div class="about-edu">
+                <p>
+                    2020 to 2021: MA (Hons) Curating Contemporary Design (in
+                    partnership with The Design Museum), Kingston University
+                </p>
+                <p>
+                    2017 to 2020: BA (Hons) Design for Theatre, Film and
+                    Performance, University for the Creative Arts
+                </p>
+                <p>
+                    2013 to 2017: BA (Hons) Film &amp; TV Cinematography and
+                    Production, Communication University of Zhejiang
+                </p>
             </div>
-            <div class="skills-grid__item">
-                <h3>Creative</h3>
-                <p>Film Editing</p> 
-                <p>Scenic Painting</p>
-                <p>Technical Drawing</p>
-                <p>Model Making</p>
-                <p>Carpentry</p>   
+        </main>
+        <footer class="page-footer">
+            <img
+                class="footer-logo"
+                src="./img/lili-logo2.svg"
+                alt="personal logo of Lili"
+            />
+            <div class="find-me-on">
+                <a href="mailto:shilinxi@proton.me"
+                    >Email: shilinxi@proton.me |</a
+                >
+                <a href="https://www.linkedin.com/in/shilinxi/" target="_blank">
+                    LinkedIn |</a
+                >
+                <a href="https://github.com/shilinxi-lili" target="_blank">
+                    Github</a
+                >
             </div>
-        </section>
-        <div class="about-edu">
-            <p>2020 to 2021: MA (Hons) Curating Contemporary Design (in partnership with The Design Museum), Kingston University</p>
-            <p>2017 to 2020: BA (Hons) Design for Theatre, Film and Performance, University for the Creative Arts</p>
-            <p>2013 to 2017: BA (Hons) Film &amp; TV Cinematography and Production, Communication University of Zhejiang</p>
-        </div>
-    </main>
-    <footer class="page-footer">
-        <img class="footer-logo" src="./img/lili-logo2.svg" alt="personal logo of Lili">
-        <div class="find-me-on">
-            <a href="mailto:shilinxi@proton.me">Email: shilinxi@proton.me |</a>
-            <a href="https://www.linkedin.com/in/shilinxi/" target="_blank"> LinkedIn |</a>
-            <a href="https://github.com/shilinxi-lili" target="_blank"> Github</a>
-        </div>
-        &copy;2023 ShiLinxi | lili. All Rights Reserved
-    </footer>
-    <!-- <script src="js/tota11y.min.js"></script> -->
-</body>
+            &copy;2023 ShiLinxi | lili. All Rights Reserved
+        </footer>
+        <!-- <script src="js/tota11y.min.js"></script> -->
+    </body>
 </html>
