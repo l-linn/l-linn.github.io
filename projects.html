@@ -1,88 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="shortcut icon" href="./img/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant&display=swap">
-    <link rel="stylesheet" href="./sass/styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="./index.html"><img class="header__logo" src="./img/lili-logo.svg" alt="personal logo of lili"></a>
-            <ul class="nav-list" role="menubar">
-                <li role="presentation">
-                    <a href="./index.html" role="menuitem">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="./projects.html" role="menuitem">Projects</a>
-                </li>
-                <li role="presentation">
-                    <a href="./contact.html" role="menuitem">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>&lt Projects &gt</h1>
-            <div class="work-grid">
-                <div class="work-grid__item">
-                    <img src="https://placehold.co/200x200" alt="photo of project 1">
-                    <h2>name of project 1</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    </p>
-                    <a class="work-link" href="#">check out the code</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Projects</title>
+        <link rel="shortcut icon" href="./img/favicon.ico" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Assistant&display=swap"
+        />
+        <link rel="stylesheet" href="./sass/styles.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="./index.html"
+                    ><img
+                        class="header__logo"
+                        src="./img/_lili.svg"
+                        alt="personal logo of lili"
+                /></a>
+                <ul class="nav-list" role="menubar">
+                    <li role="presentation">
+                        <a href="./index.html" role="menuitem">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./projects.html" role="menuitem">Projects</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./contact.html" role="menuitem">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Projects</h1>
+                <div class="work-grid">
+                    <div class="work-grid__item">
+                        <img
+                            src="./img/pokedex-img/p3.png"
+                            alt="photo of project 1"
+                        />
+                        <h2>Project Pokedex</h2>
+                        <p>
+                            A small web application with HTML, CSS, and
+                            JavaScript that loads data from an external API, and
+                            enables the viewing of data points in detail.
+                        </p>
+                        <a
+                            class="work-link"
+                            href="https://l-linn.github.io/a1-pokedex/"
+                            >See the live webpage</a
+                        ><br />
+                        <a
+                            class="work-link"
+                            href="https://github.com/l-linn/a1-pokedex.git"
+                            >check out the code</a
+                        >
+                    </div>
+                    <div class="work-grid__item">
+                        <img
+                            src="./img/meet-app-img/listofcities.png"
+                            alt="photo of project 2"
+                        />
+                        <h2>Meet App</h2>
+                        <p>
+                            A serverless, progressive web application (PWA)
+                            built with React using a test-driven development
+                            (TDD) technique. The application uses the Google
+                            Calendar API to fetch upcoming events.
+                        </p>
+                        <a
+                            class="work-link"
+                            href="https://l-linn.github.io/a4-meet-app/"
+                            >See the live webpage</a
+                        ><br />
+                        <a
+                            class="work-link"
+                            href="https://github.com/l-linn/a4-meet-app.git"
+                            >check out the code</a
+                        >
+                    </div>
+                    <div class="work-grid__item">
+                        <img src="./img/a3-img.png" alt="photo of project 3" />
+                        <h2>My Flix App - Frontend (React)</h2>
+                        <p>
+                            Using React, build the client-side for an app called
+                            myFlix based on its existing server-side code (REST
+                            API and database).
+                        </p>
+                        <a
+                            class="work-link"
+                            href="https://cfmovieapp.netlify.app/"
+                            >See the live webpage</a
+                        ><br />
+                        <a
+                            class="work-link"
+                            href="https://github.com/l-linn/a3-myFlix-client.git"
+                            >check out the code</a
+                        >
+                    </div>
+                    <div class="work-grid__item">
+                        <img
+                            src="https://placehold.co/200x200"
+                            alt="photo of project 4"
+                        />
+                        <h2>My Flix App - Frontend (Angular)</h2>
+                        <p>Lorem ipsum dolor sit amet, consec</p>
+                        <a class="work-link" href="#">check out the code</a>
+                    </div>
+                    <div class="work-grid__item">
+                        <img
+                            src="https://placehold.co/200x200"
+                            alt="photo of project 5"
+                        />
+                        <h2>My Flix App - Backend</h2>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation u
+                        </p>
+                        <a class="work-link" href="#">check out the code</a>
+                    </div>
+                    <div class="work-grid__item">
+                        <img
+                            src="https://placehold.co/200x200"
+                            alt="photo of project 6"
+                        />
+                        <h2>Chat App - Mobile</h2>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation u
+                        </p>
+                        <a class="work-link" href="#">check out the code</a>
+                    </div>
                 </div>
-                <div class="work-grid__item">
-                    <img src="https://placehold.co/400x200" alt="photo of project 2">
-                    <h2>name of project 2</h2>
-                    <p>
-                        r sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    </p>
-                    <a class="work-link" href="#">check out the code</a>
-                </div>
-                <div class="work-grid__item">
-                    <img src="https://placehold.co/200x200" alt="photo of project 3">
-                    <h2>name of project 3</h2>
-                    <p>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    </p>
-                    <a class="work-link" href="#">check out the code</a>
-                </div>
-                <div class="work-grid__item">
-                    <img src="https://placehold.co/200x200" alt="photo of project 4">
-                    <h2>name of project 4</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consec 
-                    </p>
-                    <a class="work-link" href="#">check out the code</a>
-                </div>
-                <div class="work-grid__item">
-                    <img src="https://placehold.co/200x200" alt="photo of project 5">
-                    <h2>name of project 5</h2>
-                    <p>
-                        Ut enim ad minim veniam, quis nostrud exercitation u
-                    </p>
-                    <a class="work-link" href="#">check out the code</a>
-                </div>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <img
+                class="footer-logo"
+                src="./img/lili-logo2.svg"
+                alt="personal logo of Lili"
+            />
+            <div class="find-me-on">
+                <a href="mailto:shilinxi@proton.me"
+                    >Email: shilinxi@proton.me |</a
+                >
+                <a href="https://www.linkedin.com/in/shilinxi/" target="_blank">
+                    LinkedIn |</a
+                >
+                <a href="https://github.com/shilinxi-lili" target="_blank">
+                    Github</a
+                >
             </div>
-        </section>
-    </main>
-    <footer class="page-footer">
-        <img class="footer-logo" src="./img/lili-logo2.svg" alt="personal logo of Lili">
-        <div class="find-me-on">
-            <a href="mailto:shilinxi@proton.me">Email: shilinxi@proton.me |</a>
-            <a href="https://www.linkedin.com/in/shilinxi/" target="_blank"> LinkedIn |</a>
-            <a href="https://github.com/shilinxi-lili" target="_blank"> Github</a>
-        </div>
-        &copy;2023 ShiLinxi | lili. All Rights Reserved
-    </footer>
-</body>
+            &copy;2023 ShiLinxi | lili. All Rights Reserved
+        </footer>
+    </body>
 </html>
