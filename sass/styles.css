@@ -90,6 +90,7 @@ h1 {
 }
 
 .page-footer {
+  padding-top: 20px;
   clear: both;
   display: flex;
   flex-direction: column;
@@ -289,8 +290,7 @@ a:focus, a:hover {
 }
 .bell svg {
   position: absolute;
-  top: -15px;
-  left: 65px;
+  top: -20px;
 }
 .bell-anime {
   animation: shake 1s linear infinite alternate;
