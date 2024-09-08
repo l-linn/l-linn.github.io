@@ -51,7 +51,7 @@ header {
 .nav-list a {
   color: var(--nav-button-text-color);
   text-decoration: none;
-  margin: 0px 50px;
+  margin: 0px 10px;
   padding: 10px;
   position: relative;
   z-index: 0;
@@ -228,7 +228,7 @@ a:focus, a:hover {
 @supports (display: grid) {
   .work-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: max-content;
     grid-gap: 20px;
     padding: 0 50px;
@@ -243,9 +243,9 @@ a:focus, a:hover {
 .work-grid__item img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 70%;
+  width: 100%;
 }
-.work-grid__item:nth-child(3) {
+.work-grid__item:nth-child(5) {
   background-color: var(--primary-color);
   color: var(--nav-button-text-color);
 }
